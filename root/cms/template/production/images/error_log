@@ -1,0 +1,14 @@
+[04-Jul-2018 11:53:34 Europe/Istanbul] PHP Notice:  Undefined index: change_order in /home/travelinbaku/public_html/admin/include/blog_cat/list.php on line 2
+[04-Jul-2018 11:53:34 Europe/Istanbul] PHP Notice:  Undefined index: val in /home/travelinbaku/public_html/admin/include/blog_cat/list.php on line 21
+[04-Jul-2018 11:53:34 Europe/Istanbul] PHP Notice:  Undefined index: val in /home/travelinbaku/public_html/admin/include/blog_cat/list.php on line 32
+[04-Jul-2018 11:53:34 Europe/Istanbul] PHP Notice:  Undefined variable: deeps in /home/travelinbaku/public_html/admin/include/blog_cat/list.php on line 99
+[04-Jul-2018 11:53:34 Europe/Istanbul] PHP Notice:  Undefined variable: deeps in /home/travelinbaku/public_html/admin/include/blog_cat/list.php on line 99
+[04-Jul-2018 12:06:38 Europe/Istanbul] PHP Notice:  Undefined index: change_order in /home/travelinbaku/public_html/admin/include/lng/list.php on line 4
+[04-Jul-2018 12:06:38 Europe/Istanbul] PHP Notice:  Undefined index: val in /home/travelinbaku/public_html/admin/include/lng/list.php on line 23
+[04-Jul-2018 12:06:38 Europe/Istanbul] PHP Notice:  Undefined index: val in /home/travelinbaku/public_html/admin/include/lng/list.php on line 33
+[04-Jul-2018 12:06:46 Europe/Istanbul] PHP Warning:  include(include/menu/list.php): failed to open stream: No such file or directory in /home/travelinbaku/public_html/admin/index.php on line 103
+[04-Jul-2018 12:06:46 Europe/Istanbul] PHP Warning:  include(include/menu/list.php): failed to open stream: No such file or directory in /home/travelinbaku/public_html/admin/index.php on line 103
+[04-Jul-2018 12:06:46 Europe/Istanbul] PHP Warning:  include(): Failed opening 'include/menu/list.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/travelinbaku/public_html/admin/index.php on line 103
+[04-Jul-2018 12:06:58 Europe/Istanbul] PHP Notice:  Undefined index: change_order in /home/travelinbaku/public_html/admin/include/menu/list_top.php on line 2
+[04-Jul-2018 12:06:58 Europe/Istanbul] PHP Notice:  Undefined index: val in /home/travelinbaku/public_html/admin/include/menu/list_top.php on line 21
+[04-Jul-2018 12:06:58 Europe/Istanbul] PHP Notice:  Undefined index: val in /home/travelinbaku/public_html/admin/include/menu/list_top.php on line 32

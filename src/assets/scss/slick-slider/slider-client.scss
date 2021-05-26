@@ -1,0 +1,38 @@
+.slider-client {
+  width: 92%;
+  left: 4%;
+
+  @media only screen and (max-width: 576px) {
+    width: 86%;
+    left: 7%;
+
+  }
+
+
+  .slick-prev:before {
+    color: #2574A9;
+  }
+
+  .slick-next:before {
+    color: #2574A9;
+  }
+
+
+  /*  .slick-list, .slick-slider {
+
+    }*/
+}
+
+.client {
+
+  &__img {
+    width: 100%;
+    height: 180px;
+
+    @media only screen and (min-width: 480px) {
+      height: 118px;
+    }
+
+  }
+
+}

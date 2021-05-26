@@ -1,0 +1,12 @@
+.slider-news {
+
+
+  & > .slick-dots li button:before {
+    font-size: 10px;
+    color: #1E8BC3;
+  }
+
+  & > .slick-dots {
+    bottom: -35px;
+  }
+}

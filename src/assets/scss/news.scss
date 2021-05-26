@@ -1,0 +1,40 @@
+.news {
+
+  padding: 0 15px;
+
+  &__link {
+    display: inline-block;
+    color: #044A67;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: $font-bold;
+    margin-bottom: 18px;
+    margin-top: 5px;
+
+    &:hover {
+      color: #2574a9;
+
+    }
+  }
+
+
+  &__lead {
+    font-size: 14px;
+    margin-bottom: 14px;
+    color: #555555;
+    font-weight: 400;
+  }
+
+  &__author {
+    color: #1e8bc3;
+    font-size: 12px;
+
+    & > i {
+      margin-right: 6px;
+    }
+
+    &  a {
+      font-family: $font-bold;
+    }
+  }
+}

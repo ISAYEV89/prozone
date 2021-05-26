@@ -1,0 +1,40 @@
+.breadcrumb {
+  text-transform: uppercase;
+  width: 100%;
+  margin: 0;
+  padding-top: $header-height;
+  background-color: #044A67;
+  color: #d5d5d5;
+
+
+  &--mb {
+    margin-bottom: 60px;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+
+  &__link {
+    font-size: 13px;
+    color: #d5d5d5;
+
+
+    &.active {
+      font-family: $font-semiBold;
+      color: $color-white;
+      cursor: default;
+    }
+  }
+
+  &__icon {
+    margin-top: -1px;
+
+    & > i {
+      font-size: 10px;
+      padding: 0 12px;
+    }
+  }
+}
