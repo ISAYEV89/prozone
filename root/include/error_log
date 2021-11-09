@@ -1,5 +1,0 @@
-[16-May-2020 05:43:33 America/Boise] PHP Fatal error:  Call to a member function prepare() on null in /home2/lnsinves/public_html/lnsint/include/islem.php on line 24
-[16-May-2020 05:45:18 America/Boise] PHP Fatal error:  Call to a member function prepare() on null in /home2/lnsinves/public_html/lnsint/include/islem.php on line 24
-[24-Jun-2020 14:53:54 America/Boise] PHP Fatal error:  Call to a member function prepare() on null in /home2/lnsinves/public_html/lnsint/include/islem.php on line 24
-[24-Jun-2020 14:57:49 America/Boise] PHP Fatal error:  Call to a member function prepare() on null in /home2/lnsinves/public_html/lnsint/include/islem.php on line 24
-[24-Jun-2020 14:58:19 America/Boise] PHP Fatal error:  Call to a member function prepare() on null in /home2/lnsinves/public_html/lnsint/include/islem.php on line 24

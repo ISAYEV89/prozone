@@ -116,7 +116,7 @@ body {
 }
 
 .height-auto {
-  height: auto;
+  height: auto !important;
 }
 
 .d-none {
@@ -127,3 +127,25 @@ body {
   font-family: $font-bold;
   color: $color-white;
 }
+
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+
+  &--mb {
+    margin-bottom: 20px;
+    border-radius: 3px;
+  }
+
+  & > iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute
+  }
+}
+

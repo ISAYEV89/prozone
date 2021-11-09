@@ -18,11 +18,15 @@
   }
 
 
+
   &__lead {
     font-size: 14px;
     margin-bottom: 14px;
     color: #555555;
     font-weight: 400;
+    overflow: hidden;
+    height: 66px;
+
   }
 
   &__author {
@@ -37,4 +41,25 @@
       font-family: $font-bold;
     }
   }
+}
+
+.news-blog {
+
+  margin-bottom: 38px;
+
+
+  & .pic{
+
+    &__img {
+      height: 180px;
+    }
+
+  }
+
+  & .news__link {
+    overflow: hidden;
+    height: 60px;
+    margin-bottom: 0;
+  }
+
 }

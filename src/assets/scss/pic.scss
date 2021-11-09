@@ -14,9 +14,16 @@
     transition: all 0.25s linear;
   }
 
+
+
   &--mb {
     margin-bottom: 15px;
   }
+
+  &--team:hover:before {
+    background: rgba(255, 255, 255, 0.8) !important;
+  }
+
 
   &:hover {
 
@@ -24,18 +31,21 @@
       background: rgba(85, 85, 85, 0.3);
     }
 
-    & .pic__read {
+    & .pic__read, & .pic__default {
       opacity: 1;
     }
 
     & .pic__img {
       transform: scale(1.1);
+
     }
   }
 
   &__img {
     width: 100%;
     transition: all 0.4s linear;
+    height: 180px;
+    object-fit: contain;
 
     &-about {
       height: 260px;
@@ -70,4 +80,28 @@
     z-index: 11;
     border-radius: 4px;
   }
+
+  &__default {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff !important;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    height: 30px;
+    line-height: 28px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    vertical-align: middle;
+    opacity: 0;
+    transition: all 0.25s linear;
+    z-index: 11;
+
+
+
+
+  }
+
+
 }

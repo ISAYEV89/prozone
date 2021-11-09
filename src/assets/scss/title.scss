@@ -165,7 +165,7 @@ p {
 
 .title-hr-after {
   color: #044A67;
-  font-weight: $font-bold;
+  font-family: $font-bold;
   font-size: 35px;
   text-transform: uppercase;
   position: relative;
@@ -345,6 +345,33 @@ p {
 }
 
 .color4 {
-  font-size:18px;
+  font-size: 18px;
+  color: #2574a9;
+}
+
+.color5 {
+  font-size: 22px;
+  color: #044A67;
+  margin-bottom: 18px;
+}
+
+.color6 {
+  font-size: 27px;
+  color: #044A67;
+  margin-bottom: 18px;
+  font-family: $font-bold;
+}
+
+.color7 {
+  color: #2574A9;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+  font-family: $font-bold;
+}
+
+.color11 {
+  font-size: 15px;
+  font-family: $font-bold;
   color: #2574a9;
 }

@@ -1,0 +1,38 @@
+.element {
+
+
+  &__img {
+    margin: 5px 20px 20px 0;
+    width: 150px;
+    height: 150px;
+  }
+
+
+  &__lead {
+    color: #555;
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  & hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  &__item {
+    &.left {
+      & > img {
+        float: left;
+      }
+    }
+
+    &.right {
+      & > img {
+        float: right;
+        margin: 5px  20px 0 20px;
+      }
+    }
+  }
+
+}

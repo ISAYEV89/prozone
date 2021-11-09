@@ -26,13 +26,18 @@
     flex-wrap: wrap;
     margin-bottom: 18px;
 
-    & > img {
+    & a {
+      margin-bottom: 6px;
+      margin-right: 6px;
+      padding: 4px;
+
+    }
+
+    &  img , & a {
       height: 50px;
       min-height: 50px;
       width: 70px;
       min-width: 70px;
-
-      padding: 4px;
       position: relative;
       opacity: 0.9;
       transition: all 0.5s ease;
@@ -43,9 +48,11 @@
         opacity: 1;
       }
 
-
       @media only screen and (min-width: 991px) {
         width: 25%;
+        height: 65px;
+        margin-right: 0;
+
       }
     }
 

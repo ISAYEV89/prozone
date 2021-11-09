@@ -14,6 +14,13 @@ const PATHS = {
 // let htmlUrl = 'index';
 // let htmlUrl = 'blog';
 let htmlUrl = 'blog-inner';
+// let htmlUrl = 'contact';
+// let htmlUrl = 'about-us';
+// let htmlUrl = 'element';
+
+
+// let  publicPath = '/';
+let publicPath = './';
 
 module.exports = {
 
@@ -27,7 +34,7 @@ module.exports = {
     output: {
         filename: `${PATHS.assets}js/[name].js`,
         path: PATHS.dist,
-        publicPath: '/'
+        publicPath: publicPath,
     },
     module: {
         rules: [

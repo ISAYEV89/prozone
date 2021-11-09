@@ -1,0 +1,26 @@
+.address {
+
+
+
+  &__item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 7px;
+
+    & > i {
+      width: 25px;
+      min-width: 25px;
+      text-align: center;
+      color: #fff;
+      margin: 4px 8px 8px 0;
+      background-color: #2574A9;
+      padding: 5px 0;
+      border-radius: 3px;
+    }
+
+    & > span {
+      color: #555555;
+      font-size: 14px;
+
+    }
+  }
+}
